@@ -1,0 +1,109 @@
+.center {
+  margin: 250px auto;
+}
+
+.login-h1 {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 250px auto;
+  width: 250px;
+}
+
+.login-h1:hover {
+  font-size: 60px;
+  font-weight: bold;
+  width: 320px;
+}
+
+.myForm {
+  text-align: center;
+  height: 320px;
+  width: 250px;
+  position: absolute;
+  border-radius: 5px;
+  padding: 40px 20px;
+  background: #DCDCDC;
+  -webkit-box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+  box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+}
+
+.closeBtn {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  right: -35px;
+  top: -35px;
+  border-radius: 50%;
+  line-height: 35px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #87CEEB;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  -webkit-box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+  box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+}
+.closeBtn:hover {
+  color: #ffffff;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.7);
+}
+
+.enterBtn {
+  cursor: pointer;
+  min-width: 100px;
+  padding: 8px 2px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #87CEEB;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: 600;
+  -webkit-box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+  box-shadow: 10px 7px 9px -5px rgba(0,0,0,0.7);
+}
+.enterBtn:hover {
+  color: #ffffff;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.7);
+}
+
+.enterInp {
+  -webkit-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+  -moz-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+  box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+  outline:none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.chieps-field {
+  top: 150px;
+	position: absolute;
+	min-width: 110px;
+}
+
+.chips {
+	padding: 5px 10px;
+	background: #87CEFA;
+	z-index: 9999;
+	position: relative;
+	margin: 10px 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px #999;
+  opacity: 0.7;
+}
+
+.hide {
+  opacity: 0;
+  transition: visibility 0s linear 0.5s,opacity 0.5s linear;
+}

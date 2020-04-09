@@ -1,0 +1,20 @@
+.myTable {
+  padding: 20px;
+  border-radius: 10px;
+  background: #DCDCDC;
+  -webkit-box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+  box-shadow: 10px 7px 12px -4px rgba(0,0,0,0.75);
+}
+table {
+  border: 4px double black;
+  border-collapse: collapse;
+  -webkit-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+  -moz-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+  box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
+}
+thead, tr, th, tbody, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+}
