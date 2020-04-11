@@ -45,7 +45,12 @@
   outline:none;
   border-radius: 5px;
   text-align: center;
-  padding: 5px 0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .main-h1 {

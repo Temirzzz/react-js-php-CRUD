@@ -74,14 +74,7 @@
   box-shadow: 10px 10px 25px rgba(0,0,0,0.7);
 }
 
-.enterInp {
-  -webkit-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
-  -moz-box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
-  box-shadow: inset 10px 7px 9px 5px rgba(0,0,0,0.36);
-  outline:none;
-  border-radius: 5px;
-  text-align: center;
-}
+
 
 .chieps-field {
   top: 150px;
