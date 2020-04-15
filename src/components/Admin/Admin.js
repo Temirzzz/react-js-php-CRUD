@@ -12,7 +12,7 @@ class Admin extends React.Component {
     }
   }
 
-componentWillMount () {
+componentDidMount () {
   if (sessionStorage.getItem("userData")) {
 
   }

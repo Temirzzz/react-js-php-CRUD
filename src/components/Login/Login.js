@@ -73,7 +73,7 @@ class Login extends React.Component  {
         <div className="container">
           <div className="col col-lg-4 mt-5 center">
             <div className="myForm hide">
-              <label type="button" className="closeBtn" onClick={this.loginFunc} onClick={this.closeForm}>
+              <label type="button" className="closeBtn"  onClick={this.closeForm}>
                 <span className="icon-plus"></span> &#10008;
               </label>
               <div className="form-group">
